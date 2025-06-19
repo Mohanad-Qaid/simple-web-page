@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1 class="styled-name">Mohanad Fuad</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Project Details</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#recommendations">Recommendations</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <img src="./assest/MY PHOTO.jpg" alt="Profile" class="profile-pic">
+    <h2>About Me</h2>
+    <p>Hey! I'm Mohanad, a web developer passionate about clean UI, backend logic, and making digital dreams real.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul class="project-list">
+      <li><strong>Task Tracker</strong> – A To-Do app with Pomodoro mode and Firebase backend.</li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill"><img src="./assest/images.png" alt="HTML"><span>HTML</span></div>
+      <div class="skill"><img src="./assest/CSS-_-Begrippenlijst.webp" alt="CSS"><span>CSS</span></div>
+      <div class="skill"><img src="./assest/a69e3ba2441d35dd1a7945e826064708f30c10a9-1000x667.avif" alt="JavaScript"><span>JavaScript</span></div>
+      <div class="skill"><img src="./assest/images (1).png" alt="Node.js"><span>Node.js</span></div>
+    </div>
+  </section>
+
+  <section id="recommendations">
+    <h2>Recommendations</h2>
+    <ul id="recommendation-list">
+      <li>“Mohanad is a rockstar dev with great teamwork!” – Alice</li>
+      <li>“His projects are always top-notch and innovative.” – Bob</li>
+      <li>“Brilliant problem solver and creative mind.” – Carol</li>
+    </ul>
+    <form id="recommendation-form">
+      <input type="text" id="newRec" placeholder="Write a recommendation..." required>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <a href="#" class="home-icon">🏠</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
